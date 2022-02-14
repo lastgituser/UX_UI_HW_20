@@ -1,0 +1,55 @@
+.orangeBack {
+    background-color: #FFCEA1;
+}
+
+.hero {
+    background-color: #FFCEA1;
+    background-image: url(../images/gthrcover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coverText {
+    background-color: #FFFFFF;
+    height: 10rem;
+    width: 15rem;
+}
+
+.cols-2 {
+    column-count: 2;
+}
+
+.number {
+    background-color: #FFCEA1;
+    border-radius: 1rem;
+}
+
+.img {
+    width: inherit;
+}
+
+.subsection {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.orange {
+    background-color: #FFCEA1;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .cols-2 {
+        column-count: 1;
+    }
+    .number {
+        margin: 2rem 0;
+    }
+    .img {
+        margin: 2rem 0;
+    }
+}
