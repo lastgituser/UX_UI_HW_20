@@ -3,6 +3,7 @@
 }
 
 .hero {
+    height: 80vh;
     background-color: #FFCEA1;
     background-image: url(../images/gthrcover.png);
     background-size: contain;
